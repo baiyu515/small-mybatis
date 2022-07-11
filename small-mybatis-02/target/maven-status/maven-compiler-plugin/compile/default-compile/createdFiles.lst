@@ -1,0 +1,5 @@
+com/lyy/baiyu/mybatis02/binding/MapperProxy.class
+com/lyy/baiyu/mybatis02/binding/MapperProxyFactory.class
+com/lyy/baiyu/mybatis02/binding/MapperRegistry.class
+com/lyy/baiyu/mybatis02/session/SqlSession.class
+com/lyy/baiyu/mybatis02/session/DefaultSqlSession.class
