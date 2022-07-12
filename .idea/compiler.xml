@@ -11,5 +11,11 @@
         <module name="small-mybatis-03" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="small-mybatis" target="1.8" />
+      <module name="small-mybatis-01" target="1.8" />
+      <module name="small-mybatis-02" target="1.8" />
+      <module name="small-mybatis-03" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

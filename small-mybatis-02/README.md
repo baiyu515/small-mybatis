@@ -42,3 +42,9 @@ Mybatis中提供的另一个重要类就是SqlSession。sqlSession中定义了�
 > - selectOne(String statement)：执行查询一条数据
 > - selectOne(String statement,Object[] params)：带参数的查询
 > - getMapper(Class<?> type)：获取指定type的被代理类。
+
+### 3.1、DefaultSqlSession
+
+Mybatis提供SqlSession的默认实现，
+其中getMapper(Class<?> type)方法是获取指定类型的被代理类。二被代理类被注册器读取放到内部的属性中。
+因此DefaultSqlSession中需要一个MapperRegistry属性。
